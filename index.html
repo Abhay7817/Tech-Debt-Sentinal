@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="icon" type="image/x-icon" href="./images/debt_icon.png">
+    <title>Tech Debt Sentinal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="script.js" defer></script>
+    <!--<script type="module" src="script.js"></script>-->
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <img id="im" class="logo" src="./images/debt_icon_2.png" alt="loading...">
+            <div class="logo"><a href="#">Tech Debt Sentinal</a></div>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Issues</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="boxcol">
+            <div class="effect" id="recent_scans">
+                <h4 class="htext">Recent Scans</h4>
+                <div id="blokcontainer"></div>
+            </div>
+            <div class="effect" id="team_activity">
+                <h4 class="htext">Team Activity</h4>
+            </div>
+        </div>
+        <div class="boxcol">
+            <div class="effect" id="overall">
+                <h4 class="htext">Overall Tech Debt Score</h4>
+                <canvas id="doughnut"></canvas>
+            </div>
+            <div class="effect" id="debt_trend">
+                <h4 class="htext">Debt Trend</h4>
+                <canvas id="line_chart"></canvas>
+            </div>
+        </div>
+        <div class="boxcol">
+            <div class="effect" id="prioritized">
+                <h4 class="htext">Prioritized Issues</h4>
+                <div id="cardcontainer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

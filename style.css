@@ -1,0 +1,181 @@
+body {
+    background-color: rgba(0, 17, 51);
+}
+/*#head {
+    background-color: rgb(87, 87, 87);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d2d2c8;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+#im {
+    /*float: left;*/
+    width: 6%;
+    height: auto;
+    /*vertical-align: sub;*/
+    margin-top: 10px;
+    margin-left: -90px;
+    ;
+}
+
+nav {
+    width: 100%;
+    padding: 12px 0px;
+    background: rgb(0, 34, 102);
+    box-shadow: -3px -3px 7px #898989, 3px 3px 5px #a4a4a4;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+    nav .menu {
+        max-width: 1270px;
+        background: rgb(0, 34, 102) ;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+.menu .logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    margin-right: 400px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+    .menu ul a {
+        margin: 0px 12px;
+        text-decoration: none;
+        color: aliceblue;
+        background: rgb(0, 34, 102);
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex;
+        padding: 10px 12px;
+        /*box-shadow: 3px 3px 5px #a4a4a4, 3px 3px 5px #a4a4a4;*/
+        border-color: rgb(255, 102, 0);
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+        .menu ul a:hover {
+            transform: scale(1.1);
+            background-color: rgba(0, 255, 255, 0.2);
+        }
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.htext {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    float: none;
+}
+
+.boxcol {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+    .boxcol div.effect {
+        /*height: 300px;
+    width: 300px;*/
+        border-style: solid;
+        border-width: 3px;
+        border-color: #d2d2c8;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 1px;
+        outline-color: rgb(255, 255, 255);
+        margin-top: 20px;
+        vertical-align: baseline;
+        transition: 0.2s ease;
+    }
+
+        .boxcol div.effect:hover {
+            transform: scale(1.025);
+            box-shadow: 0.5px 0.5px 5px 2px aliceblue, -0.5px -0.5px 5px 2px aliceblue;
+        }
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#recent_scans {
+    height: 300px;
+    width: 425px;
+    background-color: rgb(0, 34, 102);
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgb(0, 75, 150), rgba(0, 44, 125, 0.986));
+}
+
+#team_activity {
+    height: 450px;
+    width: 425px;
+    background-color: rgb(0, 34, 102);
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 34, 102, 1), rgba(0, 255, 255, 0.5));
+}
+
+#overall {
+    height: 350px;
+    width: 600px;
+    background-color: rgb(0, 34, 102);
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 34, 102, 1), rgba(0, 255, 255, 0.5));
+}
+
+#debt_trend {
+    height: 400px;
+    width: 600px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 34, 102, 1), rgba(0, 255, 255, 0.5));
+}
+
+#prioritized {
+    height: 775px;
+    width: 400px;
+    background-color: rgb(0, 34, 102);
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgb(0, 75, 150), rgba(0, 44, 125, 0.986));
+}
+
+#overall {
+    align-items: center; 
+}
+
+#prioritized {
+    overflow: auto;
+}
+#recent_scans{
+    overflow: auto;
+}
+canvas {
+    min-width: 200px;
+    min-height: 340px;
+    max-width: 600px;
+    max-height: 500px;
+    margin: auto;
+}
