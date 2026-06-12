@@ -70,31 +70,8 @@ A lightweight dashboard built with Vanilla JavaScript provides:
 
 ## Architecture
 
-```text
-+------------------+
-|   C++ Source     |
-|      Files       |
-+--------+---------+
-         |
-         v
-+------------------+
-|  Analysis Engine |
-|      (C++)       |
-|  RE2 + jsoncpp   |
-+--------+---------+
-         |
-         v
-+------------------+
-|   JSON Report    |
-+--------+---------+
-         |
-         v
-+------------------+
-|   Web Dashboard  |
-|   Vanilla JS     |
-|    Chart.js      |
-+------------------+
-```
+<img width="2016" height="1536" alt="Gemini_Generated_Image_jnedurjnedurjned" src="https://github.com/user-attachments/assets/58478d10-f235-4665-b5ca-cc7b9366a603" />
+
 
 ---
 
@@ -111,4 +88,5 @@ A lightweight dashboard built with Vanilla JavaScript provides:
 * **Vanilla JavaScript**
 * **Chart.js** – Data visualization
 
+<img width="1918" height="926" alt="Tech_Debt_Sentinal" src="https://github.com/user-attachments/assets/d85557ab-2f61-4c9b-b642-8ec962dff03a" />
 
