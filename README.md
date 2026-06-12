@@ -110,3 +110,4 @@ A lightweight dashboard built with Vanilla JavaScript provides:
 
 * **Vanilla JavaScript**
 * **Chart.js** – Data visualization
+<img width="1872" height="862" alt="Screenshot 2026-04-13 160910" src="https://github.com/user-attachments/assets/503e837d-e375-4d73-8591-2b2a28c2e449" />
